@@ -1,7 +1,7 @@
 # Cinema Ticket Pre-Sale Program
 # Max 20 tickets total, max 4 per buyer
 
-MAX_TICKETS = 20
+MAX_TICKETS = 10
 
 def get_ticket_request():
     """Ask the user how many tickets they want and return the number."""
