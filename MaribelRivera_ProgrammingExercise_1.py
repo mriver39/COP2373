@@ -14,7 +14,7 @@ def process_sale(request, remaining):
 
 def main():
     remaining = MAX_TICKETS
-    buyers = 0
+    buyer_count = 0
 
     print("Welcome to the Cinema Ticket Pre-Sale!")
     print("A maximum of 20 tickets are available.")
@@ -36,12 +36,12 @@ def main():
 
         # Process sale
         remaining = process_sale(request, remaining)
-        buyers += 1
+        buyer_count += 1
 
         print(f"Purchase successful! Tickets remaining: {remaining}\n")
 
     print("All tickets have been sold!")
-    print(f"Total number of buyers: {buyers}")
+    print(f"Total number of buyers: {buyer_count}")
 
 
 # Run the program
