@@ -5,7 +5,7 @@ MAX_TICKETS = 10
 
 def get_ticket_request():
     """Ask the user how many tickets they want and return the number."""
-    return int(input("How many tickets would you like to buy (1–4)? "))
+    return int(input("Enter the amount of tickets you would like to buy (1-4):"))
 
 def process_sale(request, remaining):
     """Process the sale and return updated remaining tickets."""
