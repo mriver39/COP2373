@@ -36,7 +36,7 @@ def scan_message(message, keywords):
 def rate_spam(score):
     if score == 0:
         return "This message is NOT likely to be spam."
-    elif score <= 5:
+    elif score <= 4:
         return "This message is somewhat suspicious."
     elif score <= 15:
         return "This message is likely spam."
