@@ -47,7 +47,7 @@ class BankAcct:
 # Test Function
 def test_bankacct():
     # Create account
-    acct = BankAcct("Carl Jackson", "123456", 5534.00, 4.5)
+    acct = BankAcct("Carl Jackson", "123456", 1000.00, 4.5)
 
     print("Initial Account Information")
     print(acct)
@@ -58,7 +58,7 @@ def test_bankacct():
     print(f"Current Balance: ${acct.get_balance():.2f}\n")
 
     # Withdraw
-    acct.withdraw(300)
+    acct.withdraw(200)
     print(f"Current Balance: ${acct.get_balance():.2f}\n")
 
     # Adjust interest rate
